@@ -4,9 +4,9 @@ function Dog(name){
 	this.name = name;
 }
  Dog.prototype.eat = function(cat){
- 	this.stomach.push(cat);	
+ 	 this.stomach.push(cat);	
  }
  Dog.prototype.sayHello = function() {
- 	console.log("Hello! My name is " + chalk.cyan(this.name));
+ 	console.log("Hello! My name is " + chalk.red(this.name));
  };
  module.exports = Dog;
